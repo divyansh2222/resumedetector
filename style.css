@@ -27,7 +27,6 @@ h2 {
     background: linear-gradient(to right, #00bcd4, #8e24aa);
     /* -webkit-background-clip: text; */
     -webkit-text-fill-color: transparent;
-    color: transparent;
 }
 
 input[type="file"] {
@@ -69,5 +68,9 @@ input[type="file"]:hover {
 
 .btn-primary:hover {
     transform: scale(1.05);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.btn-outline-primary {
+    margin-top: 10px;
 }
